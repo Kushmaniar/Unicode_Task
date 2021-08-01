@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: solid white;
+}
+.logo{
+    width: 16%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50px;
+    border-spacing: 0px 0px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(4, 44, 33);
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 50px;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px 15px;
+    font-family: Helvetica;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+    margin-top: 0px;
+}
+
+.rightNav{
+    /* background-color: purple; */
+    width: 50%;
+    text-align: right;
+    padding: 10px 5px;
+
+}  
+
+
+
+
+.background{
+    background-image: url('../img/malte-michels-s4wGZw3UuLk-unsplash.jpg');
+    background-color: rgba(65,89,64,0.10);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-self: center;
+    align-items: center;
+   
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    margin: auto;
+    height: 70%;
+}
+
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+.secondHalf {
+    width: 70%;
+}
+
+.secondHalf img{
+    width: 33%;
+    display: block;
+    
+    margin-left: 13cm;
+    margin-right: auto;
+    padding: 10px;
+    border: solid darkseagreen;
+    border-radius: 266px;
+      
+}
+
+.firstSection{
+    height: 100vh;
+}
+@font-face {
+    font-family: PTSerif-Regularimport;
+    src: url("PTSerif-Regular.ttf");
+    
+ 
+}
+.text-big{
+    font-size: 44px;
+    font-family: belgrano;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 1;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: -62px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.text-small{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-align: center;
+    font-size: 28px;
+}
+.sm-icon{
+    width: 50px;
+    padding-top: 2.5px;
+}
+
+
+.box1 {
+    width: 100;
+    justify-content: center;
+    align-items: center;
+}
+.pl-icon{
+    width: 110%;
+    
+}
+
+.map{
+    justify-content: center;
+    padding-left: 50px;
+}
+.links{
+    padding-left: 5px;
+}
+.video{
+    justify-content: center;
+    align-items: center;
+}
